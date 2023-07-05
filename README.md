@@ -24,12 +24,14 @@ You can directly start off using our implementations on CIFAR-10 and CIFAR-100.
 ### Train Examples 
 #### Download the Attack Masks
 [CIFAR-10](https://drive.google.com/file/d/1Y7BR3--gQfeXO9S7KPe3FirbhEiAbtUk/view?usp=sharing)
+
 [CIFAR-100](https://drive.google.com/file/d/1bqf3tMpmng-jq-JplM1hGup7_BYYmxob/view?usp=drive_link)
 Download the attack mask and put them into  ```./Attack_Mask/```.
 #### Parameters
 ```--conf```，path to the config file, e.g., ```confs/resnet18.yaml```
 #### Examples 
 Apply AdvMaks as data augmentation method training ResNet18 model on CIFAR10/100 dataset.
+
 ```python train.py --conf confs/resnet18.yaml```
 
 #### More Examples
@@ -39,6 +41,7 @@ First change ```mask``` parameter in the config file, e.g. "AutoAugment", "Fast-
 
 ## Citation
 If you find this repository useful in your research, please cite our paper:
+
 `@article{yang2022advmask,
   title={AdvMask: A Sparse Adversarial Attack Based Data Augmentation Method for Image Classification},
   author={Yang, Suorong and Li, Jinqiao and Zhao, Jian and Shen, Furao},
