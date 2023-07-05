@@ -26,6 +26,7 @@ You can directly start off using our implementations on CIFAR-10 and CIFAR-100.
 [CIFAR-10](https://drive.google.com/file/d/1Y7BR3--gQfeXO9S7KPe3FirbhEiAbtUk/view?usp=sharing)
 
 [CIFAR-100](https://drive.google.com/file/d/1bqf3tMpmng-jq-JplM1hGup7_BYYmxob/view?usp=drive_link)
+
 Download the attack mask and put them into  ```./Attack_Mask/```.
 #### Parameters
 ```--conf```，path to the config file, e.g., ```confs/resnet18.yaml```
@@ -37,6 +38,7 @@ Apply AdvMaks as data augmentation method training ResNet18 model on CIFAR10/100
 #### More Examples
 Run additional comparisons on AdvMask combined with other data augmentation methods. (e.g., "AdvMask+AutoAugment")
 First change ```mask``` parameter in the config file, e.g. "AutoAugment", "Fast-AutoAugment"
+
 ```python additional_comparison.py --conf confs/resnet18.yaml```
 
 ## Citation
