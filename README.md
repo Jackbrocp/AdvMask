@@ -44,9 +44,16 @@ First change ```mask``` parameter in the config file, e.g. "AutoAugment", "Fast-
 ## Citation
 If you find this repository useful in your research, please cite our paper:
 
-`@article{yang2022advmask,
-  title={AdvMask: A Sparse Adversarial Attack Based Data Augmentation Method for Image Classification},
-  author={Yang, Suorong and Li, Jinqiao and Zhao, Jian and Shen, Furao},
-  journal={arXiv preprint arXiv:2211.16040},
-  year={2022}
-}`
+`
+@article{YANG2023109847,
+title = {AdvMask: A sparse adversarial attack-based data augmentation method for image classification},
+journal = {Pattern Recognition},
+pages = {109847},
+year = {2023},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2023.109847},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320323005459},
+author = {Suorong Yang and Jinqiao Li and Tianyue Zhang and Jian Zhao and Furao Shen},
+keywords = {Data augmentation, Image classification, Sparse adversarial attack, Generalization},
+}
+`
