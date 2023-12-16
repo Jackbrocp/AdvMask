@@ -54,6 +54,6 @@ year = {2023},
 issn = {0031-3203},
 doi = {https://doi.org/10.1016/j.patcog.2023.109847},
 url = {https://www.sciencedirect.com/science/article/pii/S0031320323005459},
-author = {Suorong Yang and Jinqiao Li and Tianyue Zhang and Jian Zhao and Furao Shen},
+author = {Suorong Yang and Jinqiao Li and Tianyue Zhang and Jian Zhao and Furao Shen}
 }
 `
