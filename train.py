@@ -115,7 +115,7 @@ def train(epoch):
         if dataset == 'cifar100':
             stretagy = mv100.PointChoose()
         elif dataset == 'cifar10':
-            stretagy = mv100.PointChoose()
+            stretagy = mv10.PointChoose()
     for i, (images, labels, filename) in enumerate(trainingloader):
         labels = labels.cuda()
         images = images.cuda()
