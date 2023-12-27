@@ -31,7 +31,7 @@ Download the attack mask and put them into  ```./Attack_Mask/```.
 #### Parameters
 ```--conf```，path to the config file, e.g., ```confs/resnet18.yaml```
 #### Examples 
-Apply AdvMaks as data augmentation method training ResNet18 model on CIFAR10/100 dataset.
+Apply AdvMask as a data augmentation method training ResNet18 model on CIFAR10/100 dataset.
 
 ```python train.py --conf confs/resnet18.yaml```
 
